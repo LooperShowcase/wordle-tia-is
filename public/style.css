@@ -1,0 +1,36 @@
+.word {
+  display: flex;
+}
+
+.char {
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgb(255, 255, 255);
+  color: white;
+}
+
+body {
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+}
+
+.words {
+  width: 100%;
+}
+
+.word {
+  justify-content: center;
+}
+
+.char {
+  /* center chars */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
+  font: rgb(255, 255, 255);
+}
+
+#title {
+  color: rgb(255, 255, 255);
+}
